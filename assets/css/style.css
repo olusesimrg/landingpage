@@ -169,6 +169,7 @@
 .blog-title{
 	font-weight: bold;
 	color:#f96332;
+  color:#03ADED !important;
 }
   .team-thumb img {
     width: 100%;

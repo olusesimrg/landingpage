@@ -7,14 +7,15 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 
   ::-webkit-scrollbar{
-    width: 8px;
+    width: 6px;
     height: 8px;
   }
 
   ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #f96332 !important;
-    background: #202020;
+    background: #f96332 ;
+    background: #071222 !important;
+    background: #03ADED !important;
 
   }
 
@@ -488,6 +489,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-simple {
   color: #f96332;
   border-color: #f96332;
+  color: #03ADED;
+  border-color: #03ADED;
 }
 
 .btn-primary.btn-simple:hover,
@@ -915,6 +918,7 @@ fieldset[disabled] .btn-danger.active {
 .btn-neutral {
   background-color: #FFFFFF;
   color: #f96332;
+  color: #03ADED !important;
 }
 
 .btn-neutral:hover,
@@ -2278,6 +2282,8 @@ p {
 .blockquote.blockquote-primary {
   border-color: #f96332;
   color: #f96332;
+  border-color: #03ADED !important;
+  color:#03ADED !important
 }
 
 .blockquote.blockquote-primary small {
