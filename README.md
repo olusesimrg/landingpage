@@ -1,2 +1,2 @@
-# damiblog
-https://olusesimrg.github.io/damiblog/
+# Village People
+ https://olusesimrg.github.io/landingpage/
