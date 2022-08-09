@@ -2134,11 +2134,13 @@ small {
 
 a {
   color: #f96332;
+  color:  #03ADED;
 }
 
 a:hover,
 a:focus {
   color: #f96332;
+  color: #03ADED;
 }
 
 h1,
