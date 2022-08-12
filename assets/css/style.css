@@ -44,46 +44,8 @@
     .index-page .page-header .category-absolute{
       left: 0
     }
-/* aside advert in pages */
-    .advert{
-      margin-bottom: 20px;
-      width:230px;
-      float: right;
-    }
-    .aside-advert {
-      background: linear-gradient(-22deg, #75cec0 0%, #70afff 100%);
-      color: white;
-      border-radius: 5px;
-      position: relative;
-    }
-    .info-card-inner {
-      padding: 9px;
-      padding-top: 145px;
-  }
-  .aside-advert img.cover {
-    width: 130px;
-    position: absolute;
-    top: -60px;
-    right: -12px;
-} .btn-ful{
-    width: 100%;
-}
-  .aside-advert h2 {
-    color: white;
-    line-height: 1;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 26px;
-    margin-bottom: 15px;
-  }
-  .info-card-inner p.info-card-copy {
-    font-size: 14px;
-}
-  /* advert end */
-    .title-blog{
-      font-weight: 700;
-      text-align: center;
-    }
+
+
   @media screen and (max-width: 767px) {
     /* solution to the :nth-child() problem faced
     https://learn.shayhowe.com/advanced-html-css/complex-selectors/ */
@@ -120,9 +82,8 @@
       margin-bottom: 10px;
     }
 }
-  footer{
-    margin-top: 70px;
-  }
+
+
   .team-thumb-up:after {
     display: block;
     margin: 0 auto;
@@ -198,59 +159,9 @@
     border-radius: 0;
 }
 
-.search-form-container .form-control.search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #fff;
-    opacity: 1; /* Firefox */
-}
 
-.search-form-container .form-control.search-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #fff;
-}
 
-.search-form-container .form-control.search-input::-ms-input-placeholder { /* Microsoft Edge */
-    color: #fff;
-}
 
-.search-form-container .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #666666;
-    opacity: 1; /* Firefox */
-}
-
-.search-form-container .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #666666;
-}
-
-.search-form-container .form-control::-ms-input-placeholder { /* Microsoft Edge */
-    color: #666666;
-}
-
-.search-form-container .form-control {
-    font-weight: 300;
-    border-radius: 0;
-    padding: 12px 20px;
-}
-
-.search-form-container .form-control:focus {
-    border-color: white;
-    box-shadow: none;
-}
-
-.search-form-container .search-submit {
-    padding: 10px 35px;
-    background: transparent;
-    color: white;
-    border-radius: 0;
-}
-
-.search-form-container .search-submit {
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.search-form-container .search-submit:hover {
-    background-color: white;
-    color: #B25E6D;
-}
 .b-below{
   z-index: -1;
 }
@@ -276,15 +187,7 @@
   content: '';
   display: block;
   }
-  /* .section-blog-main::after {
-    -webkit-clip-path: polygon(0 0,0 100%,100% 0);
-    clip-path: polygon(0 0,0 100%,100% 0);
-    background-color: #fff;
-    height: 257px;
-    width: 100%;
-    content: '';
-    display: block;
-} */
+
   .section-blog{
   position: relative;
   z-index: 15;
@@ -302,6 +205,129 @@
   max-height: 75px;
   padding-right: 10px;
 }
+.bAg-white {
+  padding-right: 7rem;
+  padding-left: 7rem; 
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+section.info.pt-50.pb-50 {
+  background: linear-gradient(-45deg, rgba(78, 84, 200, .9), rgba(128, 137, 255, .9));
+  }
+
+  .contact-info.d-flex {
+  justify-content:  center;
+  align-items:  center;
+  }
+
+  .contact-icon i {
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  color: #4e54c8;
+  background: #fff;
+  border-radius: 100% 50% 50% 100% / 75% 69% 69% 75%;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.1)
+  }
+
+  .contact-text h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0;
+  }
+
+  .contact-text.w-75 p {
+  margin-bottom: 0;
+  color: #fff;
+  }
+
+  .footer-social ul li {
+  display:  inline-block;
+  margin-right: 20px;
+  }
+
+  .footer-social {
+  text-align:  center;
+  }
+
+  .footer-social i {
+  background: #ffffff;
+  height: 30px;
+  width: 30px;
+  color: #4e54c8;
+  line-height: 30px;
+  font-size: 16px;
+  margin-right: 5px;
+  border-radius: 100% 50% 50% 100% / 75% 69% 69% 75%;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.1);
+  }
+  .footer-social span{
+  font-weight: 600;
+  }
+  footer {
+  background: rgba(79, 82, 132, 0.9);
+  padding: 30px 0px;
+  }
+
+  .copy-right {
+  text-align:  center;
+  color: #fff;
+  }
+  .footer-social ul li span {
+  color: #fbfbfb;
+  }
+
+  .copy-right p {
+  margin-bottom: 0;
+  }
+
+  .about-text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  }
+
+  .about-text h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #4e54c8;
+  }
+
+  /* .banner-img img {
+  margin-bottom: 30px;
+  width: 190px !important;
+  border-radius: 100% 50% 50% 100% / 75% 69% 69% 75%;
+  box-shadow: 2px 10px 0px 0px rgba(0, 0, 0, 0.16);
+  } */
+  .pb-100 {
+    padding-bottom: 100px !important;
+}
+.pt-100 {
+  padding-top: 100px !important;
+}
+
+  .contact-me-title h6 {
+  font-size: 18px;
+  }
+
+
+  .contact-form {
+  padding: 0 20px;
+  }
+  .contact-me-title h2 {
+  font-weight: 600;
+  }
+
+
+
+
+
+
+  /* 767 and below */
+
   @media screen and (max-width: 767px) {
   
   .heroh1{
@@ -310,6 +336,13 @@
 }
 .logomain{
   max-height: 59px;
+}
+.bAg-white {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
 }
 
 }
