@@ -288,7 +288,6 @@ section.info.pt-50.pb-50 {
 
 
 /* meat our team */
-
 .user-pic {
     overflow: hidden;
     margin: 20px auto 20px;
@@ -306,7 +305,7 @@ section.info.pt-50.pb-50 {
 .box p{
   font-size: 16px;
 }
-.card-box {
+/* .card-box {
     padding: 15px;
     background-color: #fdfdfd;
     margin: 20px 0px;
@@ -320,7 +319,7 @@ section.info.pt-50.pb-50 {
 }
 .card-box p {
     color: #808080;
-}
+} */
 
 
 
